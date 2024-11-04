@@ -3,13 +3,7 @@ import { ExternalLink } from 'lucide-react';
 import { DotsPattern } from './Patterns';
 
 const projects = [
-  {
-    title: "TeamSync",
-    description: "Build stronger remote teams through engaging virtual experiences. Connect, collaborate, and celebrate together, no matter where you are.",
-    image: "https://portfolio-images-for-tonyloi.s3.eu-central-1.amazonaws.com/Screenshot+2024-11-04+at+13.33.42.png",
-    link: "https://silly-eclair-ee8523.netlify.app/",
-    status: "Production"
-  },
+  
   {
     title: "EcoTrack",
     description: "Track supplier compliance to enviromentally friendly practices",
@@ -18,10 +12,24 @@ const projects = [
     status: "Production"
   },
   {
+    title: "Job Queue Microservice",
+    description: "Users can register and login through auth service by user role (ADMIN or USER) through api gateway,  User can send any request to relevant service through api gateway with its bearer token ",
+    image: "https://portfolio-images-for-tonyloi.s3.eu-central-1.amazonaws.com/Screenshot+2024-11-04+at+13.57.22.png",
+    link: "https://github.com/isaactony/job-queue-system",
+    status: "Production"
+  },
+  {
     title: "Sendent",
     description: "Knowledgebase Platform for Sendent Plugin for Outlook, Teams ",
     image: "https://portfolio-images-for-tonyloi.s3.eu-central-1.amazonaws.com/Screenshot+2024-11-04+at+13.57.22.png",
     link: "https://help.sendent.com/sendent-app-for-nextcloud-outlook-ms-teams",
+    status: "Production"
+  },
+  {
+    title: "TeamSync",
+    description: "Build stronger remote teams through engaging virtual experiences. Connect, collaborate, and celebrate together, no matter where you are.",
+    image: "https://portfolio-images-for-tonyloi.s3.eu-central-1.amazonaws.com/Screenshot+2024-11-04+at+13.33.42.png",
+    link: "https://silly-eclair-ee8523.netlify.app/",
     status: "Production"
   },
   {
