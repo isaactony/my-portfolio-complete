@@ -70,6 +70,7 @@ export default function Projects() {
               key={index}
               href={project.link}
               className="group block bg-white rounded-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-xl"
+              target="_blank"
             >
               <div className="relative h-64">
                 <img
