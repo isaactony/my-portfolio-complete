@@ -14,7 +14,7 @@ const projects = [
   {
     title: "Job Queue Microservice",
     description: "Users can register and login through auth service by user role (ADMIN or USER) through api gateway,  User can send any request to relevant service through api gateway with its bearer token ",
-    image: "https://portfolio-images-for-tonyloi.s3.eu-central-1.amazonaws.com/Screenshot+2024-11-04+at+13.57.22.png",
+    image: "",
     link: "https://github.com/isaactony/job-queue-system",
     status: "Production"
   },
