@@ -18,6 +18,13 @@ const projects = [
     status: "Production"
   },
   {
+    title: "Sendent",
+    description: "Knowledgebase Platform for Sendent Plugin for Outlook, Teams ",
+    image: "https://portfolio-images-for-tonyloi.s3.eu-central-1.amazonaws.com/Screenshot+2024-11-04+at+13.57.22.png",
+    link: "https://help.sendent.com/sendent-app-for-nextcloud-outlook-ms-teams",
+    status: "Production"
+  },
+  {
     title: "Portfolio",
     description: "My Personal Portfolio Website",
     image: "https://portfolio-images-for-tonyloi.s3.eu-central-1.amazonaws.com/Screenshot+2024-11-04+at+13.00.16.png",
