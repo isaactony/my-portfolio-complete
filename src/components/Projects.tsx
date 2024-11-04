@@ -11,6 +11,13 @@ const projects = [
     status: "Production"
   },
   {
+    title: "EcoTrack",
+    description: "Track supplier compliance to enviromentally friendly practices",
+    image: "https://portfolio-images-for-tonyloi.s3.eu-central-1.amazonaws.com/Screenshot+2024-11-04+at+13.21.27.png",
+    link: "https://ecotrackyoursuppliers.netlify.app/",
+    status: "Production"
+  },
+  {
     title: "Portfolio",
     description: "My Personal Portfolio Website",
     image: "https://portfolio-images-for-tonyloi.s3.eu-central-1.amazonaws.com/Screenshot+2024-11-04+at+13.00.16.png",
