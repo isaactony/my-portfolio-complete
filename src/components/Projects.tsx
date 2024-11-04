@@ -7,6 +7,7 @@ const projects = [
     title: "TeamSync",
     description: "Build stronger remote teams through engaging virtual experiences. Connect, collaborate, and celebrate together, no matter where you are.",
     image: "https://portfolio-images-for-tonyloi.s3.eu-central-1.amazonaws.com/Screenshot+2024-11-04+at+13.33.42.png",
+    link: "https://silly-eclair-ee8523.netlify.app/",
     status: "Production"
   },
   {
@@ -65,32 +66,34 @@ export default function Projects() {
         </p>
 
         <div className="grid md:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
-            <a
-              key={index}
-              href={project.link}
-              className="group block bg-white rounded-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-xl"
-              target="_blank"
-            >
-              <div className="relative h-64">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
-                />
-                <div className="absolute inset-0 bg-violet-600 bg-opacity-90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
-                  <ExternalLink className="text-white w-8 h-8" />
-                </div>
-              </div>
-              <div className="p-6">
-                <div className="flex items-center justify-between mb-4">
-                  <h3 className="text-xl font-bold">{project.title}</h3>
-                  <span className="text-sm text-violet-600">{project.status}</span>
-                </div>
-                <p className="text-gray-600">{project.description}</p>
-              </div>
-            </a>
-          ))}
+        {projects.map((project, index) => (
+  <a
+    key={index}
+    href={project.link}
+    target="_blank" // Add this line to open the link in a new tab
+    rel="noopener noreferrer" // Add this line for security
+    className="group block bg-white rounded-xl overflow-hidden transform hover:-translate-y-1 transition-all duration-300 shadow-lg hover:shadow-xl"
+  >
+    <div className="relative h-64">
+      <img
+        src={project.image}
+        alt={project.title}
+        className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
+      />
+      <div className="absolute inset-0 bg-violet-600 bg-opacity-90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center">
+        <ExternalLink className="text-white w-8 h-8" />
+      </div>
+    </div>
+    <div className="p-6">
+      <div className="flex items-center justify-between mb-4">
+        <h3 className="text-xl font-bold">{project.title}</h3>
+        <span className="text-sm text-violet-600">{project.status}</span>
+      </div>
+      <p className="text-gray-600">{project.description}</p>
+    </div>
+  </a>
+))}
+
         </div>
       </div>
     </section>
