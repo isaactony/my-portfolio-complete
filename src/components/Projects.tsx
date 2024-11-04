@@ -6,8 +6,7 @@ const projects = [
   {
     title: "TeamSync",
     description: "Build stronger remote teams through engaging virtual experiences. Connect, collaborate, and celebrate together, no matter where you are.",
-    image: "https://private-user-images.githubusercontent.com/59682377/380238821-31bf2af0-d804-466d-9fe8-8c28cf1e8e3b.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzAwMTgxNDIsIm5iZiI6MTczMDAxNzg0MiwicGF0aCI6Ii81OTY4MjM3Ny8zODAyMzg4MjEtMzFiZjJhZjAtZDgwNC00NjZkLTlmZTgtOGMyOGNmMWU4ZTNiLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEwMjclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMDI3VDA4MzA0MlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTcyNzAyZjVjMTA1MWM5MzcyNDA0ODJhZGQyNzBmYmMxYTYwZTExZmE4YmE4YTI4NGJiM2UxMTcxZTIwNzI4NWYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.uFFL8NoeKRedukJ2g2DbGmSMB9uHCyYHuul3mHClocw",
-    link: "https://silly-eclair-ee8523.netlify.app/",
+    image: "https://portfolio-images-for-tonyloi.s3.eu-central-1.amazonaws.com/Screenshot+2024-11-04+at+13.33.42.png",
     status: "Production"
   },
   {
